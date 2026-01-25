@@ -1,0 +1,105 @@
+PS C:\Users\Lukasz\Desktop> mkdir cwiczenia
+
+
+    Directory: C:\Users\Lukasz\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-01-25     17:55                cwiczenia
+
+
+PS C:\Users\Lukasz\Desktop> cd .\cwiczenia\
+PS C:\Users\Lukasz\Desktop\cwiczenia> mkdir IO
+
+
+    Directory: C:\Users\Lukasz\Desktop\cwiczenia
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-01-25     17:56                IO
+
+
+PS C:\Users\Lukasz\Desktop\cwiczenia> cd IO
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git init
+Initialized empty Git repository in C:/Users/Lukasz/Desktop/cwiczenia/IO/.git/
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git config user.name
+Łukasz Lindert
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> nano test.cpp
+nano : The term 'nano' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nano test.cpp
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (nano:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> touch test.cpp
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch test.cpp
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.cpp
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git add test.cpp
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git commit -m "git"
+[master (root-commit) bf34cd8] git
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.cpp
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git add *
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git commit -m "tlumaczenie"
+[master 983a3ba] tlumaczenie
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git add .
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git add .\struktura.cpp
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git commit -m "struktura"
+[master 8e6ae5b] struktura
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 struktura.cpp
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> rm .\struktura.cpp
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> ls
+
+
+    Directory: C:\Users\Lukasz\Desktop\cwiczenia\IO
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2026-01-25     18:00             22 test.cpp
+
+
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    struktura.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git commit -m "delete strukt"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    struktura.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git add *
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> git commit -m "delete strukt"
+[master acf2c86] delete strukt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 struktura.cpp
+PS C:\Users\Lukasz\Desktop\cwiczenia\IO> nazwisko, imię i grup
