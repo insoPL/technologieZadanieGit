@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<czlowiek> 
+	<osoba id="1">
+		<imie>Jakub</imie> 
+		<nazwisko>Barzan</nazwisko> 
+		<plec>mezczyzna</plec> 
+		<wiek>41</wiek>
+	</osoba>
+</czlowiek> 
