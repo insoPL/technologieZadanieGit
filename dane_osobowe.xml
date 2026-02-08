@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osoba xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="dane_osobowe.xsd">
+
+    <imie>Adriano</imie>
+    <nazwisko>Brożalski</nazwisko>
+    <plec>m</plec>
+    <wiek>29</wiek>
+
+</osoba>
+
+
+<osoba>
+    <imie>Jan</imie>
+    <nazwisko>Kowalski</nazwisko>
+    <plec>m</plec>
+    <wiek>25</wiek>
+</osoba>
