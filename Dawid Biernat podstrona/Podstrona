@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Polecane gry - Portal Gracza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portal o Grach</h1>
+    </header>
+
+
+    <main>
+            <h2>Moje rekomendacje</h2>
+            <p>Poniżej przedstawię polecane przeze mnie gry do danych gatunków.</p>
+            <ul>
+                <li>Głęboka rozgrywka jednoosobowa</li>
+                <li>Wciągające wątki fabularne</li>
+                <li>Unikalny klimat i świetne oceny</li>
+				<li>Popularne strzelanki wieloosobowe</li>
+            </ul>
+
+            <h2>Horrory</h2>
+                <p><strong>"MADiSON"</strong><br>
+                Pierwszoosobowy horror psychologiczny z niepokojącą narracją.</p>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1670870/header.jpg" alt="MADiSON" width="460">
+                <br><a href="https://store.steampowered.com/app/1670870/MADiSON/">Odwiedź stronę z grą!</a>
+            <br>
+                <p><strong>"Outlast"</strong><br>
+                Wcielasz się w dziennikarza śledczego, którego jedyną bronią w walce z koszmarem jest kamera z noktowizorem.</p>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg" alt="Outlast" width="460">
+                <br><a href="https://store.steampowered.com/app/238320/Outlast/">Odwiedź stronę z grą!</a>
+			<br>
+            <h2>RPG</h2>
+                <p><strong>Seria gier "Gothic"</strong><br>
+                Kultowa historia skazańca w Górniczej Dolinie otoczonej magiczną barierą.</p>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/65540/header.jpg" alt="Gothic" width="460">
+                <br><a href="https://store.steampowered.com/app/65540/Gothic_1/">Odwiedź stronę z grą!</a>
+            <br>
+                <p><strong>"Kingdom Come: Deliverance 2"</strong><br>
+                Realistyczna gra RPG osadzona w sercu XV-wiecznych Czech, kontynuująca losy Henryka.</p>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg" alt="KCD2" width="460">
+                <br><a href="https://store.steampowered.com/app/1771300/Kingdom_Come_Deliverance_II/">Odwiedź stronę z grą!</a>
+
+            <h2>FPS (First-Person Shooters)</h2>
+                <p><strong>"Counter-Strike 2"</strong><br>
+                Strzelanka pierwszoosobowa z serii Counter Strike, bezpośredni następca Counter-Strike: Global Offensive.</p>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg" alt="CS2" width="460">
+                <br><a href="https://store.steampowered.com/app/730/CounterStrike_2/">Odwiedź stronę z grą!</a>
+            <br>
+                <p><strong>"Tom Clancy's Rainbow Six Siege"</strong><br>
+				Taktyczna strzelanka pierwszoosobowa skupiająca się na walkach pomiędzy dwiema drużynami</p>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg" alt="Rainbow Six Siege" width="460">
+                <br><a href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/">Odwiedź stronę z grą!</a>
+        <hr>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Strona o Grach. Wszystkie prawa zastrzeżone.</p>
+        <p><a href="o-grach.html">Dowiedz się więcej!</a></p>
+    </footer>
+
+</body>
+</html>
