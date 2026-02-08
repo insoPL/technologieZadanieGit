@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #bfc0c2;
+}
+
+body {
+    width: 100%;
+    max-width: 1640px;
+    display: flex;
+    flex-direction: column;
+    background-color: #111112;
+    margin: 0 auto;
+}
+
+main {
+    min-height: 80vh;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid #0000001a; 
+    transition: all .35s ease-in-out;
+}
+nav {
+    min-width: 20%;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,  minmax(50px, 80px));
+    padding: 1em;
+    min-width: 50%;
+}
+
+li {
+    display: block;
+}
+
+nav ul li:hover {
+    display: block;
+    transform: scale(1.01);
+}
+
+main section > h2 {
+    font-size: 12rem;
+    margin-top: 10rem;
+}
+
+main section > p {
+    font-size: 5rem;
+}
+
+main div.home-section:first-of-type{
+    margin-top: 15rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid #0000001a; 
+}
+
+.background {
+    background: #1B1B1C;
+    background: linear-gradient(90deg, rgba(27, 27, 28, 0.77) 0%, rgba(34, 34, 36, 1) 63%, rgba(18, 17, 17, 1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid #272727;
+}
+
+.background:hover {
+    background: #1B1B1C;
+    background: linear-gradient(90deg, rgba(18, 18, 19, 0.77) 0%, rgb(33, 33, 35) 63%, rgba(18, 17, 17, 1) 100%);
+    border: 1px solid #373636;
+    box-shadow: rgba(0, 0, 0, 0.233) 0px 4px 12px;
+}
+
+.home-section {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid #373636;
+    border-radius: 5rem;
+    padding: 1rem 3.5rem;
+    margin: 2rem;
+}
+
+
+
+.rainbow { display: flex; }
+
+.rainbow span {
+  font-weight: bold;
+  display: inline-block;
+  animation: bounce 1s infinite;
+}
+
+/* różne kolory */
+
+/* opóźnienie animacji (fala) */
+.rainbow span:nth-child(1){ animation-delay: 0s; }
+.rainbow span:nth-child(2){ animation-delay: 0.1s; }
+.rainbow span:nth-child(3){ animation-delay: 0.2s; }
+.rainbow span:nth-child(4){ animation-delay: 0.3s; }
+.rainbow span:nth-child(5){ animation-delay: 0.4s; }
+.rainbow span:nth-child(6){ animation-delay: 0.5s; }
+.rainbow span:nth-child(7){ animation-delay: 0.6s; }
+
+/* animacja */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+.form {
+  max-width: 400px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-row label,
+.form-label {
+  min-width: 100px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="number"] {
+  flex: 1;
+  padding: 0.4rem;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
